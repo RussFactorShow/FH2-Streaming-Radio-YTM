@@ -51,6 +51,11 @@ Edit `youtube-radio\config.ini` while the game is closed. You can change the cas
 
 Hold **LB + X** to skip to the next song (YouTube or local music). Change the buttons with `skip_combo` in `config.ini` (two or more of `A B X Y LB RB LT RT Back Start LS RS Up Down Left Right`, joined with `+`), or set `skip_combo = off` to disable it.
 
+## Known issues
+
+- The music can occasionally turn choppy mid-song. Switch to another station and back to fix it.
+- In rare cases the phone's YouTube Music or YouTube app stays stuck on "connecting". Force-quit the phone app and connect again.
+
 ## Troubleshooting
 
 - Check `youtube-radio\youtube-radio.log`, and `tools.log` for messages from `yt-dlp`.
