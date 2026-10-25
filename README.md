@@ -45,7 +45,7 @@ Set `station =` in `youtube-radio\config.ini` to a station's number or name, for
 
 ## Other settings
 
-Edit `youtube-radio\config.ini` while the game is closed. You can change the cast name (`device_name`), and `boost_db` (0 to 12, default 4) raises the station's overall volume. `local_boost_db` (default 6) does the same for your local music. Existing `config.ini` files keep their own values; replace `config.ini` to get the new defaults. `replace_logo = false` keeps the station's original logo. To use your own logo, put `logo.png` or `logo.jpg` in `youtube-radio`.
+Edit `youtube-radio\config.ini` while the game is closed. You can change the cast name (`device_name`), and `boost_db` (0 to 12, default 5) raises the station's overall volume. `replace_logo = false` keeps the station's original logo. To use your own logo, put `logo.png` or `logo.jpg` in `youtube-radio`.
 
 ## Skip songs from your controller
 
