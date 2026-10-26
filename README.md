@@ -53,7 +53,6 @@ Hold **LB + X** to skip to the next song (YouTube or local music). Change the bu
 
 ## Known issues
 
-- The music can occasionally turn choppy mid-song. Switch to another station and back to fix it.
 - In rare cases the phone's YouTube Music or YouTube app stays stuck on "connecting". Force-quit the phone app and connect again.
 
 ## Troubleshooting
