@@ -10,7 +10,7 @@ Not affiliated with YouTube, Google, Turn 10, Playground Games or Microsoft.
 > **IMPORTANT:** Go into the game's **In-Game Audio Settings** and **TURN OFF the DJ Voice**.
 
 > [!WARNING]
-> **Only one radio mod at a time.** This mod and the Spotify version, [FH2 Streaming Radio](https://github.com/RussFactorShow/FH2-Streaming-Radio), can't run together, because both change the same radio code in the game. Want it alongside other mods (anything besides our radio mods)? Just run the latest version of **Extra Options**. Each mod has its own folder (`YouTube Radio` here, `Spotify Radio` there), and both support local music, so you can copy your `MUSIC` folder from one to the other.
+> **Only one radio mod at a time.** Only ONE of our radio mods can be installed at a time: this one, the Spotify version, [FH2 Streaming Radio](https://github.com/RussFactorShow/FH2-Streaming-Radio), or HorizonRadioNetwork. They all change the same radio code in the game. Want it alongside other mods (anything besides our radio mods)? Just run the latest version of **Extra Options**. Each mod has its own folder (`YouTube Radio` here, `Spotify Radio` for Spotify), and both support local music, so you can copy your `MUSIC` folder from one to the other.
 
 ## Install
 
