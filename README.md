@@ -10,35 +10,25 @@ Not affiliated with YouTube, Google, Turn 10, Playground Games or Microsoft.
 > **IMPORTANT:** Go into the game's **In-Game Audio Settings** and **TURN OFF the DJ Voice**.
 
 > [!WARNING]
-> **Only one radio mod at a time.** This mod and the Spotify version, [FH2 Streaming Radio](https://github.com/RussFactorShow/FH2-Streaming-Radio), can't run together, not even in the ExtraOptions Edition, because both change the same radio code in the game. Want it alongside other mods (anything besides our two radio mods)? Run the latest version of **Extra Options** and use our **ExtraOptions Edition**, which is the recommended way from here on out. The standalone version uses `D3DCompiler_47.dll`, so it can't share with other mods. Each mod has its own folder (`youtube-radio` here, `spotify-radio` there), and both support local music, so you can copy your `MUSIC` folder from one to the other.
+> **Only one radio mod at a time.** This mod and the Spotify version, [FH2 Streaming Radio](https://github.com/RussFactorShow/FH2-Streaming-Radio), can't run together, because both change the same radio code in the game. Want it alongside other mods (anything besides our radio mods)? Just run the latest version of **Extra Options**. Each mod has its own folder (`YouTube Radio` here, `Spotify Radio` there), and both support local music, so you can copy your `MUSIC` folder from one to the other.
 
-## Install: ExtraOptions Edition (recommended)
+## Install
 
-You'll need the latest version of **Extra Options** with its mod loader installed.
+From v0.9.0 on, this mod ships only as the **ExtraOptions Edition**. You'll need the latest version of **Extra Options** with its mod loader installed.
 
-1. **Remove the standalone version first** if you have it. Delete `D3DCompiler_47.dll` and the `youtube-radio` folder from next to `Azimuth.exe`, or two radio mods will run at once.
-2. From [Releases](../../releases/latest), download **only** the `ExtraOptionsEdition` zip.
-3. Drag the whole `YouTube Radio` folder from the zip into your build's `mods` folder (next to `loadorder.txt`). Extra Options loads it at the next game start and adds it to `loadorder.txt` by itself.
-4. Start the game. The first time, the mod downloads two helper programs it needs (`yt-dlp` and `deno`, about 65 MB) into `youtube-radio\bin` in the background. There's nothing to download yourself.
-5. On any device with YouTube Music or YouTube that's on the same Wi-Fi as the game PC, tap the cast button and pick **Forza Horizon 2**. Then play something.
-6. Go into the in-game **Audio Settings** and **TURN OFF the DJ Voice**.
-7. In-game, switch the radio to **Horizon XS**, or whichever station you picked in the config.
-
-> [!NOTE]
-> In the ExtraOptions Edition, every `youtube-radio\...` path on this page lives inside `mods\YouTube Radio\`. For example, your music goes in `mods\YouTube Radio\youtube-radio\MUSIC`, and the `TITLE SCREEN` folder is still inside `MUSIC`.
-
-## Install: Standalone
-
-1. From [Releases](../../releases/latest), download the standard `FH2-Streaming-Radio-YTM` zip (not the ExtraOptionsEdition one).
-2. Copy `D3DCompiler_47.dll` and the `youtube-radio` folder into your Azimuth folder, so both are next to `Azimuth.exe`. If you had the Spotify version, replace its `D3DCompiler_47.dll`. Its `spotify-radio` folder can stay.
+1. From [Releases](../../releases/latest), download the `ExtraOptionsEdition` zip.
+2. Drag the whole `YouTube Radio` folder from the zip into your build's `mods` folder (next to `loadorder.txt`). Extra Options loads it at the next game start and adds it to `loadorder.txt` by itself.
 3. Start the game. The first time, the mod downloads two helper programs it needs (`yt-dlp` and `deno`, about 65 MB) into `youtube-radio\bin` in the background. There's nothing to download yourself.
 4. On any device with YouTube Music or YouTube that's on the same Wi-Fi as the game PC, tap the cast button and pick **Forza Horizon 2**. Then play something.
 5. Go into the in-game **Audio Settings** and **TURN OFF the DJ Voice**.
 6. In-game, switch the radio to **Horizon XS**, or whichever station you picked in the config.
 
+> [!NOTE]
+> Every `youtube-radio\...` path on this page lives inside `mods\YouTube Radio\`. For example, your music goes in `mods\YouTube Radio\youtube-radio\MUSIC`, and the `TITLE SCREEN` folder is still inside `MUSIC`.
+
 ## Coming over from the Spotify version
 
-Copy the contents of `spotify-radio\MUSIC` into `youtube-radio\MUSIC` and your local songs come along.
+Copy the contents of `mods\Spotify Radio\spotify-radio\MUSIC` into `mods\YouTube Radio\youtube-radio\MUSIC` and your local songs come along.
 
 ## Local music
 
@@ -78,9 +68,8 @@ Hold **LB + X** to skip to the next song (YouTube or local music). Change the bu
 
 ## Uninstall
 
-- **ExtraOptions Edition:** delete the `mods\YouTube Radio` folder, or comment out its line in `mods\loadorder.txt` (`# YouTube Radio`).
-- **Standalone:** delete `D3DCompiler_47.dll` and the `youtube-radio` folder.
-- Either way, you can also set `enabled = false` in `config.ini` to switch it off.
+- Delete the `mods\YouTube Radio` folder, or comment out its line in `mods\loadorder.txt` (`# YouTube Radio`).
+- You can also set `enabled = false` in `config.ini` to switch it off.
 
 ## Note
 
